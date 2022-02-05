@@ -49,6 +49,7 @@ nav a.active {
     margin-top: 60px;
     margin-bottom: 30px;
     border: 2px solid darkslategray;
+    background-color: cadetblue;
 }
 
 .title img, .title div {
@@ -73,11 +74,10 @@ nav a.active {
     font-size: 25px;
     text-align: center;
     border: 2px solid darkslategray;
+    background-color: cadetblue;
 }
 
-.video div {
-    padding: 10px;
-}
+
 
 .grid-container-subpages {
     display: grid;
@@ -91,6 +91,7 @@ nav a.active {
 .grid-subpage {
     text-align: center;
     border: 2px solid darkslategray;
+    background-color: cadetblue;
 }
 
 .grid-subpage div {

@@ -33,7 +33,7 @@ nav a {
     font-size: 20px;
 }
 
-nav a:hover, .grid-container-subpages a:hover, .links a:hover {
+nav a:hover, a:hover, .links a:hover {
     background-color: darkslategray;
     color: black;
 }
@@ -49,6 +49,7 @@ nav a.active {
     margin-top: 60px;
     margin-bottom: 30px;
     border: 2px solid darkslategray;
+    background-color: cadetblue;
 }
 
 .title img, .title div {
@@ -67,15 +68,15 @@ nav a.active {
 
 
 .box {
-    width: 1000px;
-    height: 450px;
-    padding: 20px;
+    width: 50em;
+    height: 22em;
+    padding: 1em;
     font-size: 20px;
     margin: auto;
     text-align: center;
     margin-bottom: 60px;
     border: 1px solid darkslategray;
-    background: aliceblue;
+    background: cadetblue;
 }
 
 .grid-container {
@@ -103,7 +104,7 @@ li {
 }
 
 .item1, .item2, .item3 {
-    background-color: aliceblue;
+    background-color: cadetblue;
     border: 1px solid darkslategray;
 }
 
